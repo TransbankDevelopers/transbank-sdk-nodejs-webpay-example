@@ -1,3 +1,5 @@
+# WIP: Este proyecto está en desarrollo. No usar en producción. El SDK aún no se publica en npm y va a cambiar. 
+
 # Proyecto de ejemplo usando el SDK de Webpay de Node.js
 El siguiente proyecto es un ejemplo simple de Webpay a través del SDK de Transbank para Node.js.
 
