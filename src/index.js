@@ -1,6 +1,6 @@
 const express = require("express")
 const bodyParser = require("body-parser")
-const Transbank = require("transbank-sdk")
+const Transbank = require("tbk_sdk")
 const { getRandomInt } = require("./helpers")
 
 const app = express()
@@ -28,9 +28,9 @@ app.get("/webpay-normal/init", (req, res) => {
   Webpay.initTransaction(
     amount,
     "Orden" + getRandomInt(10000, 99999),
+    req.sessionId,
     url + "/webpay-normal/response",
-    url + "/webpay-normal/finish",
-    req.sessionId).then((data) => {
+    url + "/webpay-normal/finish",).then((data) => {
     transactions[data.token] = { amount: amount }
     res.render("redirect-transbank",
       { url: data.url, token: data.token, inputName: "TBK_TOKEN" })
