@@ -1,6 +1,6 @@
 const express = require("express")
 const bodyParser = require("body-parser")
-const Transbank = require("tbk_sdk")
+const Transbank = require("transbank-sdk")
 const { getRandomInt } = require("./helpers")
 
 const app = express()
