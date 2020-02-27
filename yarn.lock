@@ -3589,10 +3589,10 @@ tr46@^1.0.1:
   dependencies:
     punycode "^2.1.0"
 
-transbank-sdk@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/transbank-sdk/-/transbank-sdk-0.0.2.tgz#b6bfbb23900425c31685c409b40f14367fe58077"
-  integrity sha512-eP7aw69GlG31QQN3FI65PZfpbClXWVIFnrDNghtJ8QnzP3yanYt0QaOVsb5+dNCqx5zVYIra43qhqgj/k0YLQw==
+transbank-sdk@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/transbank-sdk/-/transbank-sdk-1.0.2.tgz#b44a0ab5ddbd1a744d969d426953d11709a89435"
+  integrity sha512-JjJez14ZiAQ3uQAsPaIx22qrcB9fPg7d3M/qsky2Nx54G890efncy2j6pKAJM8pg1G/kl/+FXMxAJTcRvC6+Qg==
   dependencies:
     tbk_signer "^1.0.5"
 
