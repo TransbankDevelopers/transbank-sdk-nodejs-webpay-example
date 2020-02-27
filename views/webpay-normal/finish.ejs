@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejemplo del SDK de transbank</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="h-full">
+<div class="flex align-center justify-center">
+    <div class="w-1/2 mt-20 p-5 flex-col flex rounded-lg shadow-lg">
+        <h2 class="text-2xl font-thin">
+            Webpay Plus Normal - Resultado
+        </h2>
+
+        <div class="mt-10 mb-10">
+            <% if (transaction.detailOutput[0].responseCode === 0) { %>
+                <h4 class="text-2xl font-thin text-green-500">
+                    Transacción exitosa
+                </h4>
+                <p>La transacción ha sido aprobada ya que transaction.detailOutput[0].responseCode es igual a cero</p>
+            <% } else { %>
+                <h4 class="text-2xl font-thin text-red-600">
+                    Transacción rechazada
+                </h4>
+                <p>Se recomienda especificar posibles razones de rechazo... </p>
+            <% } %>
+            <div class="border-solid border-t border-gray-400 mt-8 pt-8">
+                <pre><%= JSON.stringify(transaction, null, 2) %></pre>
+                <div class="webpay-oneclick mt-4">
+                    <span><a class="text-blue-600 hover:no-underline underline" href="../">Volver al home</a></span>
+                </div>
+            </div>
+
+        </div>
+        <img class="w-20 ml-auto" src="https://transbankdevelopers.cl/public/library/img/tbk_black.svg"
+             alt="Transbank Developers">
+    </div>
+</div>
+
+</body>
+</html>

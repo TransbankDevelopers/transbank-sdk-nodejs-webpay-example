@@ -1,0 +1,30 @@
+{
+  "name": "transbank-sdk-nodejs-webpay-example",
+  "version": "1.0.0",
+  "description": "Webpay Node.js SDK example",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TransbankDevelopers/transbank-sdk-nodejs-webpay-example.git"
+  },
+  "keywords": [
+    "webpay",
+    "nodejs",
+    "example"
+  ],
+  "author": "Gonzalo De Spírito <gonzalo.despirito@continuum.cl>",
+  "license": "BSD-3 with Clause",
+  "bugs": {
+    "url": "https://github.com/TransbankDevelopers/transbank-sdk-nodejs-webpay-example/issues"
+  },
+  "homepage": "https://github.com/TransbankDevelopers/transbank-sdk-nodejs-webpay-example#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "transbank-sdk": "^1.0.0"
+  }
+}
