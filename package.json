@@ -15,7 +15,7 @@
     "nodejs",
     "example"
   ],
-  "author": "Gonzalo De Spírito <gonzalo.despirito@continuum.cl>",
+  "author": "Continuum, Gonzalo De Spírito <gonzalo.despirito@continuum.cl>",
   "license": "BSD-3 with Clause",
   "bugs": {
     "url": "https://github.com/TransbankDevelopers/transbank-sdk-nodejs-webpay-example/issues"

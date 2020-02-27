@@ -66,4 +66,4 @@ app.post("/webpay-normal/finish", (req, res) => {
 
 })
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`Ejecutando demo en http://localhost:${port} 🚀`))
