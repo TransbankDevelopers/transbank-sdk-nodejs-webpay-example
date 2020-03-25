@@ -5,5 +5,4 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - .:/app
-      - ./src/:/var/www
+      - ./src/:/app/src
