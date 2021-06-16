@@ -1,3 +1,6 @@
+# Obsoleto: este proyecto está obsoleto, ya que el API SOAP de Transbank ya no está disponible para nuevas integraciones. Ahora debes usar el API REST, y puedes ver un proyecto de ejemplo usando esta neuva versión del SDK de Node.js acá: https://github.com/TransbankDevelopers/transbank-sdk-nodejs-webpay-rest-example
+
+
 # Proyecto de ejemplo usando el SDK de Webpay de Node.js
 El siguiente proyecto es un ejemplo simple de Webpay a través del SDK de Transbank para Node.js.
 
